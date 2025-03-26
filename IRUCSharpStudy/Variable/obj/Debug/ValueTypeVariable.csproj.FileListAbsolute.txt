@@ -1,0 +1,7 @@
+C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\Variable\bin\Debug\Variable.exe.config
+C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\Variable\bin\Debug\Variable.exe
+C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\Variable\bin\Debug\Variable.pdb
+C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\Variable\obj\Debug\ValueTypeVariable.csproj.AssemblyReference.cache
+C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\Variable\obj\Debug\ValueTypeVariable.csproj.CoreCompileInputs.cache
+C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\Variable\obj\Debug\Variable.exe
+C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\Variable\obj\Debug\Variable.pdb
