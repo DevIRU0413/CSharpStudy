@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\didtm\\Documents\\GitHub\\CSharpStudy\\IRUCSharpStudy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69EF459B-0F81-49F8-A6E5-8BC8226E770F}|Operator\\Operator.csproj|c:\\users\\didtm\\documents\\github\\csharpstudy\\irucsharpstudy\\operator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69EF459B-0F81-49F8-A6E5-8BC8226E770F}|Operator\\Operator.csproj|solutionrelative:operator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D24D3FA4-699D-4954-A0C0-88489FA55C4E}|Variable\\ValueTypeVariable.csproj|C:\\Users\\didtm\\Documents\\GitHub\\CSharpStudy\\IRUCSharpStudy\\variable\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D24D3FA4-699D-4954-A0C0-88489FA55C4E}|Variable\\ValueTypeVariable.csproj|solutionrelative:variable\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CFEC0D93-5856-4EBD-AF7B-84656CCE5D30}|ReadInput\\ReadInput.csproj|c:\\users\\didtm\\documents\\github\\csharpstudy\\irucsharpstudy\\readinput\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFEC0D93-5856-4EBD-AF7B-84656CCE5D30}|ReadInput\\ReadInput.csproj|solutionrelative:readinput\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,26 +24,14 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\didtm\\Documents\\GitHub\\CSharpStudy\\IRUCSharpStudy\\Operator\\Program.cs",
-              "RelativeDocumentMoniker": "Operator\\Program.cs",
-              "ToolTip": "C:\\Users\\didtm\\Documents\\GitHub\\CSharpStudy\\IRUCSharpStudy\\Operator\\Program.cs",
-              "RelativeToolTip": "Operator\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAABBAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\didtm\\Documents\\GitHub\\CSharpStudy\\IRUCSharpStudy\\ReadInput\\Program.cs",
+              "RelativeDocumentMoniker": "ReadInput\\Program.cs",
+              "ToolTip": "C:\\Users\\didtm\\Documents\\GitHub\\CSharpStudy\\IRUCSharpStudy\\ReadInput\\Program.cs",
+              "RelativeToolTip": "ReadInput\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T06:00:30.468Z",
+              "WhenOpened": "2025-03-26T22:33:44.57Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\didtm\\Documents\\GitHub\\CSharpStudy\\IRUCSharpStudy\\Variable\\Program.cs",
-              "RelativeDocumentMoniker": "Variable\\Program.cs",
-              "ToolTip": "C:\\Users\\didtm\\Documents\\GitHub\\CSharpStudy\\IRUCSharpStudy\\Variable\\Program.cs",
-              "RelativeToolTip": "Variable\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T04:06:35.725Z"
             }
           ]
         }

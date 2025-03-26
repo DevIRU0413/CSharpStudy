@@ -1,0 +1,7 @@
+C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\ReadInput\bin\Debug\ReadInput.exe.config
+C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\ReadInput\bin\Debug\ReadInput.exe
+C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\ReadInput\bin\Debug\ReadInput.pdb
+C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\ReadInput\obj\Debug\ReadInput.csproj.AssemblyReference.cache
+C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\ReadInput\obj\Debug\ReadInput.csproj.CoreCompileInputs.cache
+C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\ReadInput\obj\Debug\ReadInput.exe
+C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\ReadInput\obj\Debug\ReadInput.pdb
