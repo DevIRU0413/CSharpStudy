@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\didtm\\Documents\\GitHub\\CSharpStudy\\IRUCSharpStudy\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{62219CAF-C0E2-47A6-95C6-9271417141C5}|IF\\IF.csproj|c:\\users\\didtm\\documents\\github\\csharpstudy\\irucsharpstudy\\if\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62219CAF-C0E2-47A6-95C6-9271417141C5}|IF\\IF.csproj|solutionrelative:if\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CFEC0D93-5856-4EBD-AF7B-84656CCE5D30}|ReadInput\\ReadInput.csproj|c:\\users\\didtm\\documents\\github\\csharpstudy\\irucsharpstudy\\readinput\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFEC0D93-5856-4EBD-AF7B-84656CCE5D30}|ReadInput\\ReadInput.csproj|solutionrelative:readinput\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -24,11 +28,24 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\didtm\\Documents\\GitHub\\CSharpStudy\\IRUCSharpStudy\\IF\\Program.cs",
+              "RelativeDocumentMoniker": "IF\\Program.cs",
+              "ToolTip": "C:\\Users\\didtm\\Documents\\GitHub\\CSharpStudy\\IRUCSharpStudy\\IF\\Program.cs",
+              "RelativeToolTip": "IF\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T13:28:29.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\didtm\\Documents\\GitHub\\CSharpStudy\\IRUCSharpStudy\\ReadInput\\Program.cs",
               "RelativeDocumentMoniker": "ReadInput\\Program.cs",
               "ToolTip": "C:\\Users\\didtm\\Documents\\GitHub\\CSharpStudy\\IRUCSharpStudy\\ReadInput\\Program.cs",
               "RelativeToolTip": "ReadInput\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-26T22:33:44.57Z",
               "EditorCaption": ""
