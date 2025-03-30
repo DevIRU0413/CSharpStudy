@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\didtm\\OneDrive\\\uBB38\uC11C\\GitHub\\CSharpStudy\\IRUCSharpStudy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{62219CAF-C0E2-47A6-95C6-9271417141C5}|IF\\IF.csproj|C:\\Users\\didtm\\OneDrive\\\uBB38\uC11C\\GitHub\\CSharpStudy\\IRUCSharpStudy\\if\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62219CAF-C0E2-47A6-95C6-9271417141C5}|IF\\IF.csproj|solutionrelative:if\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{839C59C2-39E2-48B6-8067-FCF6A7744A7F}|Array\\Array.csproj|c:\\users\\didtm\\onedrive\\\uBB38\uC11C\\github\\csharpstudy\\irucsharpstudy\\array\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{839C59C2-39E2-48B6-8067-FCF6A7744A7F}|Array\\Array.csproj|solutionrelative:array\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFEC0D93-5856-4EBD-AF7B-84656CCE5D30}|ReadInput\\ReadInput.csproj|C:\\Users\\didtm\\OneDrive\\\uBB38\uC11C\\GitHub\\CSharpStudy\\IRUCSharpStudy\\readinput\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFEC0D93-5856-4EBD-AF7B-84656CCE5D30}|ReadInput\\ReadInput.csproj|solutionrelative:readinput\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B63AE30-F651-4FA8-91FD-14BF6626DB2C}|Loop\\Loop.csproj|c:\\users\\didtm\\onedrive\\\uBB38\uC11C\\github\\csharpstudy\\irucsharpstudy\\loop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B63AE30-F651-4FA8-91FD-14BF6626DB2C}|Loop\\Loop.csproj|solutionrelative:loop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,25 +28,27 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\didtm\\OneDrive\\\uBB38\uC11C\\GitHub\\CSharpStudy\\IRUCSharpStudy\\IF\\Program.cs",
-              "RelativeDocumentMoniker": "IF\\Program.cs",
-              "ToolTip": "C:\\Users\\didtm\\OneDrive\\\uBB38\uC11C\\GitHub\\CSharpStudy\\IRUCSharpStudy\\IF\\Program.cs",
-              "RelativeToolTip": "IF\\Program.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAQwBcAAAANAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\didtm\\OneDrive\\\uBB38\uC11C\\GitHub\\CSharpStudy\\IRUCSharpStudy\\Array\\Program.cs",
+              "RelativeDocumentMoniker": "Array\\Program.cs",
+              "ToolTip": "C:\\Users\\didtm\\OneDrive\\\uBB38\uC11C\\GitHub\\CSharpStudy\\IRUCSharpStudy\\Array\\Program.cs",
+              "RelativeToolTip": "Array\\Program.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAiwDcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T13:28:29.497Z"
+              "WhenOpened": "2025-03-30T07:22:40.881Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\didtm\\OneDrive\\\uBB38\uC11C\\GitHub\\CSharpStudy\\IRUCSharpStudy\\ReadInput\\Program.cs",
-              "RelativeDocumentMoniker": "ReadInput\\Program.cs",
-              "ToolTip": "C:\\Users\\didtm\\OneDrive\\\uBB38\uC11C\\GitHub\\CSharpStudy\\IRUCSharpStudy\\ReadInput\\Program.cs",
-              "RelativeToolTip": "ReadInput\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAyAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\didtm\\OneDrive\\\uBB38\uC11C\\GitHub\\CSharpStudy\\IRUCSharpStudy\\Loop\\Program.cs",
+              "RelativeDocumentMoniker": "Loop\\Program.cs",
+              "ToolTip": "C:\\Users\\didtm\\OneDrive\\\uBB38\uC11C\\GitHub\\CSharpStudy\\IRUCSharpStudy\\Loop\\Program.cs",
+              "RelativeToolTip": "Loop\\Program.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwFQAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T22:33:44.57Z"
+              "WhenOpened": "2025-03-30T06:45:41.868Z",
+              "EditorCaption": ""
             }
           ]
         }
