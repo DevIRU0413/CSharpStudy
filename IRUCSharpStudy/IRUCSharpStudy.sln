@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Annotation", "Annotation\An
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Function", "Function\Function.csproj", "{33BA5B5C-62B5-4A8F-AE36-8E4C7A07B0DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingStar", "BuildingStar\BuildingStar.csproj", "{E6A33084-7AE6-4EA2-AB2A-628394C9E5A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{33BA5B5C-62B5-4A8F-AE36-8E4C7A07B0DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33BA5B5C-62B5-4A8F-AE36-8E4C7A07B0DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33BA5B5C-62B5-4A8F-AE36-8E4C7A07B0DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6A33084-7AE6-4EA2-AB2A-628394C9E5A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6A33084-7AE6-4EA2-AB2A-628394C9E5A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6A33084-7AE6-4EA2-AB2A-628394C9E5A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6A33084-7AE6-4EA2-AB2A-628394C9E5A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
