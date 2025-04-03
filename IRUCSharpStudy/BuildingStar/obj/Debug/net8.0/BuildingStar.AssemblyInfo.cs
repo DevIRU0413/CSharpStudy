@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BuildingStar")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2889d72693d01bd2fb53ae755ea363bd2f929793")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac556881f3b354eb9352072fc6abb6f038ddb37a")]
 [assembly: System.Reflection.AssemblyProductAttribute("BuildingStar")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BuildingStar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

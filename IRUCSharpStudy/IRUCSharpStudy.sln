@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Function", "Function\Functi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingStar", "BuildingStar\BuildingStar.csproj", "{E6A33084-7AE6-4EA2-AB2A-628394C9E5A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enum", "Enum\Enum.csproj", "{68494C8C-FC35-4880-A2C8-0EDFF5FF871D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constant", "Constant\Constant.csproj", "{57F6AE1B-7683-4401-91D0-62E472A26C94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{E6A33084-7AE6-4EA2-AB2A-628394C9E5A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6A33084-7AE6-4EA2-AB2A-628394C9E5A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6A33084-7AE6-4EA2-AB2A-628394C9E5A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68494C8C-FC35-4880-A2C8-0EDFF5FF871D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68494C8C-FC35-4880-A2C8-0EDFF5FF871D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68494C8C-FC35-4880-A2C8-0EDFF5FF871D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68494C8C-FC35-4880-A2C8-0EDFF5FF871D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57F6AE1B-7683-4401-91D0-62E472A26C94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57F6AE1B-7683-4401-91D0-62E472A26C94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57F6AE1B-7683-4401-91D0-62E472A26C94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57F6AE1B-7683-4401-91D0-62E472A26C94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
