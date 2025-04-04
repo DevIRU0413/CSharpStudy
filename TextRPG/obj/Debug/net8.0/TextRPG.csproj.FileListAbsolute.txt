@@ -1,0 +1,15 @@
+C:\Users\didtm\OneDrive\문서\GitHub\CSharpStudy\TextRPG\bin\Debug\net8.0\TextRPG.exe
+C:\Users\didtm\OneDrive\문서\GitHub\CSharpStudy\TextRPG\bin\Debug\net8.0\TextRPG.deps.json
+C:\Users\didtm\OneDrive\문서\GitHub\CSharpStudy\TextRPG\bin\Debug\net8.0\TextRPG.runtimeconfig.json
+C:\Users\didtm\OneDrive\문서\GitHub\CSharpStudy\TextRPG\bin\Debug\net8.0\TextRPG.dll
+C:\Users\didtm\OneDrive\문서\GitHub\CSharpStudy\TextRPG\bin\Debug\net8.0\TextRPG.pdb
+C:\Users\didtm\OneDrive\문서\GitHub\CSharpStudy\TextRPG\obj\Debug\net8.0\TextRPG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\didtm\OneDrive\문서\GitHub\CSharpStudy\TextRPG\obj\Debug\net8.0\TextRPG.AssemblyInfoInputs.cache
+C:\Users\didtm\OneDrive\문서\GitHub\CSharpStudy\TextRPG\obj\Debug\net8.0\TextRPG.AssemblyInfo.cs
+C:\Users\didtm\OneDrive\문서\GitHub\CSharpStudy\TextRPG\obj\Debug\net8.0\TextRPG.csproj.CoreCompileInputs.cache
+C:\Users\didtm\OneDrive\문서\GitHub\CSharpStudy\TextRPG\obj\Debug\net8.0\TextRPG.sourcelink.json
+C:\Users\didtm\OneDrive\문서\GitHub\CSharpStudy\TextRPG\obj\Debug\net8.0\TextRPG.dll
+C:\Users\didtm\OneDrive\문서\GitHub\CSharpStudy\TextRPG\obj\Debug\net8.0\refint\TextRPG.dll
+C:\Users\didtm\OneDrive\문서\GitHub\CSharpStudy\TextRPG\obj\Debug\net8.0\TextRPG.pdb
+C:\Users\didtm\OneDrive\문서\GitHub\CSharpStudy\TextRPG\obj\Debug\net8.0\TextRPG.genruntimeconfig.cache
+C:\Users\didtm\OneDrive\문서\GitHub\CSharpStudy\TextRPG\obj\Debug\net8.0\ref\TextRPG.dll

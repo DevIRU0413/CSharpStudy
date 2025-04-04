@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\didtm\\OneDrive\\\uBB38\uC11C\\GitHub\\CSharpStudy\\TextRPG\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0B6337FC-6D89-41AA-A1C6-7076218F2304}|TextRPG.csproj|c:\\users\\didtm\\onedrive\\\uBB38\uC11C\\github\\csharpstudy\\textrpg\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6337FC-6D89-41AA-A1C6-7076218F2304}|TextRPG.csproj|solutionrelative:game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0B6337FC-6D89-41AA-A1C6-7076218F2304}|TextRPG.csproj|c:\\users\\didtm\\onedrive\\\uBB38\uC11C\\github\\csharpstudy\\textrpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B6337FC-6D89-41AA-A1C6-7076218F2304}|TextRPG.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,15 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\didtm\\OneDrive\\\uBB38\uC11C\\GitHub\\CSharpStudy\\TextRPG\\Game.cs",
+              "RelativeDocumentMoniker": "Game.cs",
+              "ToolTip": "C:\\Users\\didtm\\OneDrive\\\uBB38\uC11C\\GitHub\\CSharpStudy\\TextRPG\\Game.cs",
+              "RelativeToolTip": "Game.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAzwD4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T07:18:14.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\didtm\\OneDrive\\\uBB38\uC11C\\GitHub\\CSharpStudy\\TextRPG\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\didtm\\OneDrive\\\uBB38\uC11C\\GitHub\\CSharpStudy\\TextRPG\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T06:51:53.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T06:51:53.869Z"
             }
           ]
         }
