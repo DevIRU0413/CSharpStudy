@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constant", "Constant\Consta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Struct", "Struct\Struct.csproj", "{12D2CEA2-C27F-46B3-857C-AFB29CAA98D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class", "Class\Class.csproj", "{06C7953E-94BA-43AA-90F2-2A2A80651AB6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{12D2CEA2-C27F-46B3-857C-AFB29CAA98D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12D2CEA2-C27F-46B3-857C-AFB29CAA98D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12D2CEA2-C27F-46B3-857C-AFB29CAA98D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06C7953E-94BA-43AA-90F2-2A2A80651AB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06C7953E-94BA-43AA-90F2-2A2A80651AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06C7953E-94BA-43AA-90F2-2A2A80651AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06C7953E-94BA-43AA-90F2-2A2A80651AB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\didtm\\OneDrive\\\uBB38\uC11C\\GitHub\\CSharpStudy\\IRUCSharpStudy\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{06C7953E-94BA-43AA-90F2-2A2A80651AB6}|Class\\Class.csproj|c:\\users\\didtm\\onedrive\\\uBB38\uC11C\\github\\csharpstudy\\irucsharpstudy\\class\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C7953E-94BA-43AA-90F2-2A2A80651AB6}|Class\\Class.csproj|solutionrelative:class\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{12D2CEA2-C27F-46B3-857C-AFB29CAA98D5}|Struct\\Struct.csproj|c:\\users\\didtm\\onedrive\\\uBB38\uC11C\\github\\csharpstudy\\irucsharpstudy\\struct\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12D2CEA2-C27F-46B3-857C-AFB29CAA98D5}|Struct\\Struct.csproj|solutionrelative:struct\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -28,24 +32,37 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\didtm\\OneDrive\\\uBB38\uC11C\\GitHub\\CSharpStudy\\IRUCSharpStudy\\Struct\\Program.cs",
-              "RelativeDocumentMoniker": "Struct\\Program.cs",
-              "ToolTip": "C:\\Users\\didtm\\OneDrive\\\uBB38\uC11C\\GitHub\\CSharpStudy\\IRUCSharpStudy\\Struct\\Program.cs",
-              "RelativeToolTip": "Struct\\Program.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCoAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\didtm\\OneDrive\\\uBB38\uC11C\\GitHub\\CSharpStudy\\IRUCSharpStudy\\Class\\Program.cs",
+              "RelativeDocumentMoniker": "Class\\Program.cs",
+              "ToolTip": "C:\\Users\\didtm\\OneDrive\\\uBB38\uC11C\\GitHub\\CSharpStudy\\IRUCSharpStudy\\Class\\Program.cs",
+              "RelativeToolTip": "Class\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T03:24:58.225Z",
+              "WhenOpened": "2025-04-06T14:59:16.001Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\didtm\\OneDrive\\\uBB38\uC11C\\GitHub\\CSharpStudy\\IRUCSharpStudy\\Struct\\Program.cs",
+              "RelativeDocumentMoniker": "Struct\\Program.cs",
+              "ToolTip": "C:\\Users\\didtm\\OneDrive\\\uBB38\uC11C\\GitHub\\CSharpStudy\\IRUCSharpStudy\\Struct\\Program.cs",
+              "RelativeToolTip": "Struct\\Program.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:24:58.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\didtm\\OneDrive\\\uBB38\uC11C\\GitHub\\CSharpStudy\\IRUCSharpStudy\\Enum\\Program.cs",
               "RelativeDocumentMoniker": "Enum\\Program.cs",
               "ToolTip": "C:\\Users\\didtm\\OneDrive\\\uBB38\uC11C\\GitHub\\CSharpStudy\\IRUCSharpStudy\\Enum\\Program.cs",
               "RelativeToolTip": "Enum\\Program.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAIwD4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T10:15:54.468Z",
               "EditorCaption": ""
