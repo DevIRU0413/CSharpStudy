@@ -1,0 +1,181 @@
+## Visual Studio 기본 .gitignore
+## 출처: https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
+
+# ========== 사용자 설정 파일 ==========
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# ========== 빌드 출력 및 로그 ==========
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.dll
+*.exe
+*.log
+*.tmp
+*.cache
+*.pdb
+*.ipdb
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+*.vsidx  # ✅ 추가: Visual Studio 인덱싱 파일
+
+# ========== 플랫폼/구조 별 ==========
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+Generated\ Files/
+
+# ========== Visual Studio 관련 ==========
+.vs/
+.vscode/
+*.tlog
+*.vsp
+*.psess
+*.vspscc
+*.vssscc
+*.suo
+*.ncb
+*.aps
+*.opt
+*.vbw
+*.vbp
+*.sln.iml
+*.sdf
+*.opensdf
+*.opendb
+*.suo
+*.plg
+*.gpState
+*.rptproj.bak
+*.fakes
+
+# ========== 패키지 / NuGet ==========
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+project.lock.json
+project.fragment.lock.json
+*.nuget.props
+*.nuget.targets
+
+# ========== 기타 도구 ==========
+_ReSharper*/
+*.DotSettings.user
+_TeamCity*
+.axoCover/
+*.dotCover
+*.mm.*
+*.jmconfig
+*.tss
+*.nvuser
+
+# ========== 테스트 및 커버리지 ==========
+[Tt]est[Rr]esult*/
+*.coverage
+*.coveragexml
+*.VisualState.xml
+nunit-*.xml
+BenchmarkDotNet.Artifacts/
+TestResult.xml
+*.crunch*.local.xml
+nCrunchTemp_*
+*.vspx
+OpenCover/
+ASALocalRun/
+
+# ========== 퍼블리시 ==========
+publish/
+*.publishproj
+*.pubxml
+*.azurePubxml
+PublishScripts/
+AppPackages/
+BundleArtifacts/
+*.appx
+*.appxbundle
+*.appxupload
+*.StoreAssociation.xml
+
+# ========== Azure / Service Fabric ==========
+*.build.csdef
+ServiceFabricBackup/
+csx/
+ecf/
+rcf/
+
+# ========== 기타 ==========
+*.class
+*.orig
+*.bak
+*.swp
+*.pid
+*.tmp_proj
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.snk
+*.plg
+*.opt
+*.rptproj.rsuser
+*.btp.cs
+*.bim.layout
+*.rptproj
+*.mdf
+*.ldf
+*.ndf
+*.pyc
+__pycache__/
+*.binlog
+.mfractor/
+.vshistory/
+.localhistory/
+.healthchecksdb
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Node.js Tools
+node_modules/
+
+# FAKE
+.fake/
+
+# Paket
+.paket/
+paket-files/
+
+# Ionide
+.ionide/
+
+# VS Code 작업 파일
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Git에 의해 생성된 메타 파일 무시
+*.orig
+*.rej
+
+# 백업 파일
+*~ 
+~$*
+
+# 리포지토리 설정 파일 제외하지 않도록
+!Directory.Build.rsp
