@@ -1,7 +1,0 @@
-C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\Operator\bin\Debug\Operator.exe.config
-C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\Operator\bin\Debug\Operator.exe
-C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\Operator\bin\Debug\Operator.pdb
-C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\Operator\obj\Debug\Operator.csproj.AssemblyReference.cache
-C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\Operator\obj\Debug\Operator.csproj.CoreCompileInputs.cache
-C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\Operator\obj\Debug\Operator.exe
-C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\Operator\obj\Debug\Operator.pdb

@@ -1,7 +1,0 @@
-C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\Print\bin\Debug\Print.exe.config
-C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\Print\bin\Debug\Print.exe
-C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\Print\bin\Debug\Print.pdb
-C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\Print\obj\Debug\Print.csproj.AssemblyReference.cache
-C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\Print\obj\Debug\Print.csproj.CoreCompileInputs.cache
-C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\Print\obj\Debug\Print.exe
-C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\Print\obj\Debug\Print.pdb

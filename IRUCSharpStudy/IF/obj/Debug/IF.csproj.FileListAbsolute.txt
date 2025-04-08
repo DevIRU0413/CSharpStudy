@@ -1,7 +1,0 @@
-C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\IF\bin\Debug\IF.exe.config
-C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\IF\bin\Debug\IF.exe
-C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\IF\bin\Debug\IF.pdb
-C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\IF\obj\Debug\IF.csproj.AssemblyReference.cache
-C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\IF\obj\Debug\IF.csproj.CoreCompileInputs.cache
-C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\IF\obj\Debug\IF.exe
-C:\Users\didtm\Documents\GitHub\CSharpStudy\IRUCSharpStudy\IF\obj\Debug\IF.pdb
