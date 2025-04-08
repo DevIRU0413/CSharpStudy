@@ -1,5 +1,6 @@
 ﻿namespace TextRPG
 {
+    // Text RPG Loop
     internal class Game
     {
         private bool _gameOver = false;
