@@ -51,6 +51,45 @@
             Position = position;
         }
     }
+    abstract class Animal
+    {
+        public string Name { get; set; }
+
+        public Animal(string name)
+        {
+            Name = name;
+        }
+
+        public void Sleep()
+        {
+            Console.WriteLine($"{Name}이(가) 잠을 잡니다.");
+        }
+
+        // 추상 메서드: 자식 클래스가 반드시 구현해야 함
+        public abstract void MakeSound();
+    }
+
+    class Dog : Animal
+    {
+        public Dog(string name) : base(name) { }
+
+        // 반드시 구현
+        public override void MakeSound()
+        {
+            Console.WriteLine($"{Name}이(가) 멍멍!");
+        }
+    }
+
+    class Cat : Animal
+    {
+        public Cat(string name) : base(name) { }
+
+        public override void MakeSound()
+        {
+            Console.WriteLine($"{Name}이(가) 야옹!");
+        }
+    }
+
 
     sealed class Player : Unit // sealed로 더 이상 상속되지 않게 설정
     {
@@ -87,6 +126,15 @@
             Car myCar = new Car(); // new 키워드로 생성자 사용
             myCar.Model = "소나타"; // 내부의 외부 공개 가능한 값에 접근 및 값 할당
             myCar.Drive(); // 내부의 외부 공개 가능한 함수 기능 사용
+
+
+            Animal dog = new Dog("초코");
+            dog.Sleep();
+            dog.MakeSound();
+
+            Animal cat = new Cat("나비");
+            cat.Sleep();
+            cat.MakeSound();
         }
     }
 }
