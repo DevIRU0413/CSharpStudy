@@ -31,7 +31,7 @@
             // 이런 식으로 오류가 발생한다.
             // 오류는 정수형을 실수형으로 직접 캐스팅하려고 할 때 발생한다. 
             // 보통 암시적 변환은 잘되지만, 명시적 캐스팅으로 진행할 때 잘못되었거나, 박싱된 값을 언박싱할 떄 타입이 다르면 문제가 발생한다.
-            float d = (float)b;
+            // float d = (float)b;
 
             // object 형식이란 C#의 존재하는 모든 클래스의 기본이 되는 자료형이다.
             // object 형식을 사용하면 데이터의 형식에 관계없이 object 형식의 자료형에 담을 수 있습니다.
@@ -74,6 +74,8 @@
             Swap<int>(ref aa, ref bb);
             Swap<float>(ref cc, ref dd);
             Swap<byte>(ref ee, ref ff);
+
+            Console.WriteLine("실행 완료");
         }
 
         // 같은 기능의 일반 오버로드 함수들
