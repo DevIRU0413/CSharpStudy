@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class", "Class\Class.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Static", "Static\Static.csproj", "{1E6933FD-A0C1-4B35-915E-26ED1EDBB853}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic", "Generic\Generic.csproj", "{A68FF9E2-366D-48A5-818B-1FF2F70527E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{1E6933FD-A0C1-4B35-915E-26ED1EDBB853}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E6933FD-A0C1-4B35-915E-26ED1EDBB853}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E6933FD-A0C1-4B35-915E-26ED1EDBB853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A68FF9E2-366D-48A5-818B-1FF2F70527E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A68FF9E2-366D-48A5-818B-1FF2F70527E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A68FF9E2-366D-48A5-818B-1FF2F70527E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A68FF9E2-366D-48A5-818B-1FF2F70527E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
