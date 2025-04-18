@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Static", "Static\Static.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic", "Generic\Generic.csproj", "{A68FF9E2-366D-48A5-818B-1FF2F70527E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Interface.csproj", "{24218D7B-139D-4DBB-B743-D4F05A6A1060}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{A68FF9E2-366D-48A5-818B-1FF2F70527E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A68FF9E2-366D-48A5-818B-1FF2F70527E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A68FF9E2-366D-48A5-818B-1FF2F70527E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24218D7B-139D-4DBB-B743-D4F05A6A1060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24218D7B-139D-4DBB-B743-D4F05A6A1060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24218D7B-139D-4DBB-B743-D4F05A6A1060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24218D7B-139D-4DBB-B743-D4F05A6A1060}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
