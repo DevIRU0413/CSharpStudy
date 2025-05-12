@@ -10,7 +10,7 @@
             // 자료를 넣는 것을 '밀어넣다' 하여 푸쉬라고 하고, 반대로 넣어둔 자료를 꺼내는 것을 팝이라고 하는데, 이때 나중에 넣은 값이 먼저 나온다.
             // 데이터 접근의 특징은 Last In First Out이다. 약자는 LIFO 이다.
 
-            // - top: 가장 윗 데이터를 반환, 만약 스택이 비었다면 이 연산은 정의 불가 상태이다.
+            // - top(peek): 가장 윗 데이터를 반환, 만약 스택이 비었다면 이 연산은 정의 불가 상태이다.
             // - pop: 가장 윗 데이터를 삭제한다. 스택이 비었다면 연산 정의 불가 상태.
             // - push: 가장 윗 데이터로 top이 가리키는 자리 위에 메모리를 생성하고 데이터를 넣어준다.
             // - empty: 스택이 비었다면 1을 반환하고, 그렇지 않을 경우면 0일 반환한다.
@@ -21,6 +21,7 @@
             stack.Push(3);
             stack.Push(4);
             stack.Print();
+
 
             Console.WriteLine("Top " + stack.Top());
             Console.WriteLine("Pop " + stack.Pop());
@@ -41,6 +42,7 @@
         private int _count;
         private int TopIndex => _count - 1;
 
+        public int Count => _count;
 
         public Stack()
         {
@@ -54,6 +56,10 @@
 
             return _items[TopIndex];
         }
+        public T Peek()
+        {
+            return Top();
+        }
 
         public T Pop()
         {
@@ -61,6 +67,7 @@
                 throw new InvalidOperationException("큐가 비어있습니다.");
 
             T returnValue = _items[TopIndex];
+            _items[TopIndex] = default;
             _count--;
             return returnValue;
         }
@@ -81,7 +88,7 @@
 
         public bool IsEmpty()
         {
-            return _count == 0;
+            return _count <= 0;
         }
 
         public bool Contains(T value)
@@ -96,7 +103,8 @@
 
         public void Clear()
         {
-            _items = new T[4];
+            for(int i = 0; i < _items.Length; i++)
+                Pop();
         }
 
         public void Print()
