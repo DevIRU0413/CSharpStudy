@@ -15,7 +15,7 @@ namespace FullBinaryTree
         {
             List<string> tokens = new List<string>();
             // "(1 * 2 - 2) * (1 * 10 - 2)"
-            string expression = "((((((((((((((((1 + 2) + (3 + 4)) + ((5 + 6) + (7 + 8))) + (((9 + 1) + (1 + 1)) + ((3 + 4) + (5 + 6)))) + ((((7 + 8) + (9 + 0)) + ((1 + 2) + (3 + 4))) + (((5 + 6) + (7 +28)) + ((9 + 0) + (1 + 2))))))))";
+            string expression = "((((((((((((((((1 + 2) + (3 + 4)) + ((5 + 6) + (7 + 8))) + (((9 + 1) + (2 + 3)) + ((4 + 5) + (6 + 7)))) + ((((8 + 9) + (1 + 2)) + ((3 + 4) + (5 + 6))) + (((7 + 8) + (9 + 1)) + ((2 + 3) + (4 + 5))))))))\r\n";
 
             StringBuilder number = new StringBuilder();
 
@@ -265,11 +265,11 @@ namespace FullBinaryTree
             {
                 // 시작 빈 공간 및 노드 출력
                 StringBuilder spaceStr = new StringBuilder();
-                int spaceCount = GetNoneSpaceOfDepth(depth - (1 + i));
+                int spaceCount = GetNoneSpaceOfDepth(depth - (2 + i));
 
                 // 간선 출력
                 StringBuilder edgeSpaceStr = new StringBuilder();
-                int edgeSpaceCount = GetNoneSpaceOfDepth(depth - (2 + i));
+                int edgeSpaceCount = GetNoneSpaceOfDepth(depth - (3 + i));
 
                 int count = openNodes.Count;
                 while (count > 0)
@@ -277,30 +277,30 @@ namespace FullBinaryTree
                     Node<string> node = openNodes.Dequeue();
                     spaceStr.Append(' ', spaceCount);
                     spaceStr.Append($"[{node.Value}]");
-                    spaceStr.Append(' ', spaceCount + 3);
+                    spaceStr.Append(' ', spaceCount);
+                    spaceStr.Append(' ', 3);
 
-                    edgeSpaceStr.Append(' ', edgeSpaceCount);
 
                     // 간선 출력(왼)
                     if (node.ChildLeft != null)
                     {
                         openNodes.Enqueue(node.ChildLeft);
+                        edgeSpaceStr.Append(' ', edgeSpaceCount);
                         edgeSpaceStr.Append("  /");
                         edgeSpaceStr.Append('-', edgeSpaceCount);
+                        edgeSpaceStr.Append(' ', 3);
                     }
 
 
                     // 간선 출력(우)
                     if (node.ChildRight != null)
                     {
-                        edgeSpaceStr.Append('-', edgeSpaceCount + 3);
+                        edgeSpaceStr.Append('-', edgeSpaceCount);   
                         openNodes.Enqueue(node.ChildRight);
                         edgeSpaceStr.Append("\\  ");
-                        
+                        edgeSpaceStr.Append(' ', edgeSpaceCount);
+                        edgeSpaceStr.Append(' ', 3);
                     }
-
-                    edgeSpaceStr.Append(' ', edgeSpaceCount);
-                    edgeSpaceStr.Append(' ', 3);
                     count--;
                 }
 
