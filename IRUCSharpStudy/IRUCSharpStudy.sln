@@ -47,6 +47,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "Dictionary\Di
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullBinaryTree", "FullBinaryTree\FullBinaryTree.csproj", "{818D359C-7D2F-4539-8DAC-E7C55366DF24}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{DF800C40-D043-4D80-84EA-508F89F42A6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph", "Graph\Graph.csproj", "{04E56ED1-9FF9-4EBD-B631-FEC4EF8AA033}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +145,14 @@ Global
 		{818D359C-7D2F-4539-8DAC-E7C55366DF24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{818D359C-7D2F-4539-8DAC-E7C55366DF24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{818D359C-7D2F-4539-8DAC-E7C55366DF24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF800C40-D043-4D80-84EA-508F89F42A6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF800C40-D043-4D80-84EA-508F89F42A6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF800C40-D043-4D80-84EA-508F89F42A6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF800C40-D043-4D80-84EA-508F89F42A6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04E56ED1-9FF9-4EBD-B631-FEC4EF8AA033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04E56ED1-9FF9-4EBD-B631-FEC4EF8AA033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04E56ED1-9FF9-4EBD-B631-FEC4EF8AA033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04E56ED1-9FF9-4EBD-B631-FEC4EF8AA033}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
