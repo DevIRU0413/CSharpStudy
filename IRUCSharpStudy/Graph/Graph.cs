@@ -34,6 +34,7 @@ namespace Graph
                 to.AddEdge(from, weight);
         }
 
+        // 간선 연결 제거
         public void RemoveNode(GraphNode<T> node)
         {
             foreach (var n in _nodes)
@@ -44,6 +45,17 @@ namespace Graph
             _nodes.Remove(node);
         }
 
+        public GraphNode<T> FindValue(T value)
+        {
+            foreach(var n in _nodes)
+            {
+                if (value.Equals(n.Data))
+                    return n;
+            }
+            return null;
+        }
+
+        // 구성 요소 출력
         public void PrintGraphInfo()
         {
             Console.WriteLine("그래프");
@@ -53,6 +65,7 @@ namespace Graph
             }
         }
 
+        // 깊이 우선 탐색
         public List<GraphNode<T>> DFS(GraphNode<T> node, List<GraphNode<T>> visited = null)
         {
             var findNodes = node.NeighborNodes;
@@ -70,6 +83,7 @@ namespace Graph
             return visited;
         }
 
+        // 넓이 우선 탐색
         public List<GraphNode<T>> BFS(Queue<GraphNode<T>> toVisit, List<GraphNode<T>> visited = null)
         {
             if (toVisit == null || toVisit.Count == 0)
@@ -92,6 +106,7 @@ namespace Graph
             return visited;
         }
 
+        // 다익스트라 알고리즘 길 찾기
         public List<GraphNode<T>> Dijkstra(GraphNode<T> startNode, GraphNode<T> endNode)
         {
             if (_nodes == null || _nodes.Count == 0 || startNode == null || endNode == null)
@@ -155,6 +170,7 @@ namespace Graph
             return visited;
         }
 
+        // A* 알고리즘 길찾기
         public List<GraphNode<Vector2>> AStar(GraphNode<Vector2> start, GraphNode<Vector2> goal)
         {
             var openSet = new PriorityQueue<GraphNode<Vector2>, float>();
@@ -164,7 +180,7 @@ namespace Graph
             var fScore = new Dictionary<GraphNode<Vector2>, float>();
 
             gScore[start] = 0f;
-            fScore[start] = Heuristic(start.Value, goal.Value);
+            fScore[start] = Heuristic(start.Data, goal.Data);
             openSet.Enqueue(start, fScore[start]);
 
             while (openSet.Count > 0)
@@ -185,21 +201,20 @@ namespace Graph
                     {
                         cameFrom[neighbor] = current;
                         gScore[neighbor] = tentativeG;
-                        fScore[neighbor] = tentativeG + Heuristic(neighbor.Value, goal.Value);
+                        fScore[neighbor] = tentativeG + Heuristic(neighbor.Data, goal.Data);
 
                         openSet.Enqueue(neighbor, fScore[neighbor]);
                     }
                 }
             }
 
-            return null; // No path found
+            return null;
         }
 
         private float Heuristic(Vector2 a, Vector2 b)
         {
-            return Vector2.Distance(a, b); // 또는 맨해튼 거리 사용 가능
+            return Vector2.Distance(a, b);
         }
-
         private List<GraphNode<Vector2>> ReconstructPath(Dictionary<GraphNode<Vector2>, GraphNode<Vector2>> cameFrom, GraphNode<Vector2> current)
         {
             List<GraphNode<Vector2>> path = new() { current };

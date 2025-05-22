@@ -2,20 +2,20 @@
 {
     public class GraphNode<T>
     {
-        public T Value;
+        public T Data;
         public Dictionary<GraphNode<T>, float> NeighborNodes { get; private set; } = new();
 
         public GraphNode(T value)
         {
-            Value = value;
+            Data = value;
         }
 
         public void PrintNeighborNodes()
         {
             Console.WriteLine();
-            Console.WriteLine($"[{Value}]");
+            Console.WriteLine($"[{Data}]");
             foreach (var neighbor in NeighborNodes)
-                Console.WriteLine($" └─ node {neighbor.Key.Value}, weight {neighbor.Value}");
+                Console.WriteLine($" └─ node {neighbor.Key.Data}, weight {neighbor.Value}");
         }
 
         public void AddEdge(GraphNode<T> node, float weight = 0.0f)

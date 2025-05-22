@@ -50,7 +50,7 @@ namespace Graph
             Console.WriteLine("DFS");
             var dfsList = graph.DFS(node0);
             for (int i = 0; i < dfsList.Count; i++)
-                Console.WriteLine(dfsList[i].Value.ToString());
+                Console.WriteLine(dfsList[i].Data.ToString());
             Console.WriteLine();
 
             Console.WriteLine("BFS");
@@ -58,7 +58,7 @@ namespace Graph
             toVisit.Enqueue(node0);
             var bfsList = graph.BFS(toVisit);
             for (int i = 0; i < bfsList.Count; i++)
-                Console.WriteLine(bfsList[i].Value.ToString());
+                Console.WriteLine(bfsList[i].Data.ToString());
             Console.WriteLine();
 
             var dijkstra = graph.Dijkstra(node0, node5);
@@ -66,11 +66,11 @@ namespace Graph
 
             Console.WriteLine("Dijkstra");
             foreach (var d in dijkstra)
-                Console.WriteLine(d.Value.ToString());
+                Console.WriteLine(d.Data.ToString());
 
             Console.WriteLine("Dijkstra");
             foreach (var d in dijkstra2)
-                Console.WriteLine(d.Value.ToString());
+                Console.WriteLine(d.Data.ToString());
 
 
             // <인접행령 그래프>
@@ -128,43 +128,110 @@ namespace Graph
 
 
             // 노드 간 연결 (양방향 연결로 가정)
-            graph3.AddEdgeCycle(nodeA0, nodeA1, Vector2.Distance(nodeA0.Value, nodeA1.Value));
-            graph3.AddEdgeCycle(nodeA1, nodeA2, Vector2.Distance(nodeA1.Value, nodeA2.Value));
-            graph3.AddEdgeCycle(nodeA0, nodeA4, Vector2.Distance(nodeA0.Value, nodeA4.Value));
-            graph3.AddEdgeCycle(nodeA4, nodeA5, Vector2.Distance(nodeA4.Value, nodeA5.Value));
-            graph3.AddEdgeCycle(nodeA2, nodeA5, Vector2.Distance(nodeA2.Value, nodeA5.Value));
-            graph3.AddEdgeCycle(nodeA0, nodeA3, Vector2.Distance(nodeA0.Value, nodeA3.Value));
-                          
-            graph3.AddEdgeCycle(nodeA1, nodeA6, Vector2.Distance(nodeA1.Value, nodeA6.Value));
-            graph3.AddEdgeCycle(nodeA6, nodeA7, Vector2.Distance(nodeA6.Value, nodeA7.Value));
-            graph3.AddEdgeCycle(nodeA2, nodeA7, Vector2.Distance(nodeA2.Value, nodeA7.Value));
-            graph3.AddEdgeCycle(nodeA7, nodeA8, Vector2.Distance(nodeA7.Value, nodeA8.Value));
-            graph3.AddEdgeCycle(nodeA5, nodeA8, Vector2.Distance(nodeA5.Value, nodeA8.Value));
-                          
-            graph3.AddEdgeCycle(nodeA3, nodeA9, Vector2.Distance(nodeA3.Value, nodeA9.Value));
-            graph3.AddEdgeCycle(nodeA9, nodeA10, Vector2.Distance(nodeA9.Value, nodeA10.Value));
-            graph3.AddEdgeCycle(nodeA10, nodeA2, Vector2.Distance(nodeA10.Value, nodeA2.Value));
+            graph3.AddEdgeCycle(nodeA0, nodeA1, Vector2.Distance(nodeA0.Data, nodeA1.Data));
+            graph3.AddEdgeCycle(nodeA1, nodeA2, Vector2.Distance(nodeA1.Data, nodeA2.Data));
+            graph3.AddEdgeCycle(nodeA0, nodeA4, Vector2.Distance(nodeA0.Data, nodeA4.Data));
+            graph3.AddEdgeCycle(nodeA4, nodeA5, Vector2.Distance(nodeA4.Data, nodeA5.Data));
+            graph3.AddEdgeCycle(nodeA2, nodeA5, Vector2.Distance(nodeA2.Data, nodeA5.Data));
+            graph3.AddEdgeCycle(nodeA0, nodeA3, Vector2.Distance(nodeA0.Data, nodeA3.Data));
 
+            graph3.AddEdgeCycle(nodeA1, nodeA6, Vector2.Distance(nodeA1.Data, nodeA6.Data));
+            graph3.AddEdgeCycle(nodeA6, nodeA7, Vector2.Distance(nodeA6.Data, nodeA7.Data));
+            graph3.AddEdgeCycle(nodeA2, nodeA7, Vector2.Distance(nodeA2.Data, nodeA7.Data));
+            graph3.AddEdgeCycle(nodeA7, nodeA8, Vector2.Distance(nodeA7.Data, nodeA8.Data));
+            graph3.AddEdgeCycle(nodeA5, nodeA8, Vector2.Distance(nodeA5.Data, nodeA8.Data));
+
+            graph3.AddEdgeCycle(nodeA3, nodeA9, Vector2.Distance(nodeA3.Data, nodeA9.Data));
+            graph3.AddEdgeCycle(nodeA9, nodeA10, Vector2.Distance(nodeA9.Data, nodeA10.Data));
+            graph3.AddEdgeCycle(nodeA10, nodeA2, Vector2.Distance(nodeA10.Data, nodeA2.Data));
+
+            graph3.PrintGraphInfo();
 
             var astarPath = graph3.AStar(nodeA0, nodeA5);
-            
             Console.WriteLine("AStar1");
             foreach (var a in astarPath)
-                Console.WriteLine(a.Value.ToString());
+                Console.WriteLine(a.Data.ToString());
 
 
             astarPath = graph3.AStar(nodeA0, nodeA10);
 
             Console.WriteLine("AStar2");
             foreach (var a in astarPath)
-                Console.WriteLine(a.Value.ToString());
+                Console.WriteLine(a.Data.ToString());
 
 
             astarPath = graph3.AStar(nodeA3, nodeA7);
 
             Console.WriteLine("AStar3");
             foreach (var a in astarPath)
-                Console.WriteLine(a.Value.ToString());
+                Console.WriteLine(a.Data.ToString());
+
+
+            Graph<string> graph4 = new Graph<string>();
+
+            List<string> stations = new List<string>
+            {
+                "서울역", "시청", "종각", "종로3가", "종로5가", "동대문",
+                "을지로입구", "을지로3가", "을지로4가", "동대문역사문화공원",
+                "신당", "상왕십리", "왕십리",
+                "약수", "동대입구", "충무로",
+                "청구", "신금호", "행당"
+            };
+
+            Dictionary<string, List<(string, float)>> stationsList = new()
+            {
+                // 1호선
+                ["서울역"] = new() { ("시청", 1) },
+                ["시청"] = new() { ("서울역", 1), ("종각", 1), ("을지로입구", 1) },
+                ["종각"] = new() { ("시청", 1), ("종로3가", 1) },
+                ["종로3가"] = new() { ("종각", 1), ("종로5가", 1), ("을지로4가", 1), ("충무로", 1) },
+                ["종로5가"] = new() { ("종로3가", 1), ("동대문", 1) },
+                ["동대문"] = new() { ("종로5가", 1) },
+
+                // 2호선
+                ["을지로입구"] = new() { ("시청", 1), ("을지로3가", 1) },
+                ["을지로3가"] = new() { ("을지로입구", 1), ("을지로4가", 1), ("충무로", 1) },
+                ["을지로4가"] = new() { ("을지로3가", 1), ("동대문역사문화공원", 1), ("종로3가", 1) },
+                ["동대문역사문화공원"] = new() { ("을지로4가", 1), ("신당", 1), ("청구", 1) },
+                ["신당"] = new() { ("동대문역사문화공원", 1), ("상왕십리", 1) },
+                ["상왕십리"] = new() { ("신당", 1), ("왕십리", 1) },
+                ["왕십리"] = new() { ("상왕십리", 1), ("행당", 1) },
+
+                // 3호선
+                ["약수"] = new() { ("동대입구", 1), ("청구", 1) },
+                ["동대입구"] = new() { ("약수", 1), ("충무로", 1) },
+                ["충무로"] = new() { ("동대입구", 1), ("을지로3가", 1), ("종로3가", 1) },
+
+                // 5호선
+                ["청구"] = new() { ("약수", 1), ("동대문역사문화공원", 1), ("신금호", 1) },
+                ["신금호"] = new() { ("청구", 1), ("행당", 1) },
+                ["행당"] = new() { ("신금호", 1), ("왕십리", 1) }
+            };
+
+            // 노드 추가
+            foreach (var s in stationsList)
+            {
+                string key = s.Key;
+                graph4.AddNode(key);
+            }
+
+            // 노드간 간선 추가
+            foreach (var s in stationsList)
+            {
+                string key = s.Key;
+                foreach(var v in s.Value)
+                    graph4.AddEdgeCycle(graph4.FindValue(key), graph4.FindValue(v.Item1), v.Item2);
+            }
+
+            graph4.PrintGraphInfo();
+            var station = graph4.Dijkstra(graph4.FindValue("서울역"), graph4.FindValue("신금호"));
+
+            Console.WriteLine("\n\nStation Dijkstra\n");
+            foreach (var d in station)
+                Console.Write(d.Data.ToString() + ", ");
+            Console.WriteLine("\n");
+            Console.WriteLine($"출발치 > {station[0].Data}, 도착치 > {station[station.Count - 1].Data}");
+            Console.WriteLine($"출발지로 부터 총 {station.Count - 1}개의 정거장을 거쳐야되며, {(station.Count - 1) * 3}분 소요됩니다.");
         }
     }
 }
