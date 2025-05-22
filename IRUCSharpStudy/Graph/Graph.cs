@@ -155,9 +155,63 @@ namespace Graph
             return visited;
         }
 
-        public List<GraphNode<T>> Astart() where T : Vector2
+        public List<GraphNode<Vector2>> AStar(GraphNode<Vector2> start, GraphNode<Vector2> goal)
         {
-            return null;
+            var openSet = new PriorityQueue<GraphNode<Vector2>, float>();
+            var cameFrom = new Dictionary<GraphNode<Vector2>, GraphNode<Vector2>>();
+
+            var gScore = new Dictionary<GraphNode<Vector2>, float>();
+            var fScore = new Dictionary<GraphNode<Vector2>, float>();
+
+            gScore[start] = 0f;
+            fScore[start] = Heuristic(start.Value, goal.Value);
+            openSet.Enqueue(start, fScore[start]);
+
+            while (openSet.Count > 0)
+            {
+                var current = openSet.Dequeue();
+
+                if (current == goal)
+                    return ReconstructPath(cameFrom, current);
+
+                foreach (var neighborPair in current.NeighborNodes)
+                {
+                    var neighbor = neighborPair.Key;
+                    float weight = neighborPair.Value;
+
+                    float tentativeG = gScore[current] + weight;
+
+                    if (!gScore.ContainsKey(neighbor) || tentativeG < gScore[neighbor])
+                    {
+                        cameFrom[neighbor] = current;
+                        gScore[neighbor] = tentativeG;
+                        fScore[neighbor] = tentativeG + Heuristic(neighbor.Value, goal.Value);
+
+                        openSet.Enqueue(neighbor, fScore[neighbor]);
+                    }
+                }
+            }
+
+            return null; // No path found
+        }
+
+        private float Heuristic(Vector2 a, Vector2 b)
+        {
+            return Vector2.Distance(a, b); // 또는 맨해튼 거리 사용 가능
+        }
+
+        private List<GraphNode<Vector2>> ReconstructPath(Dictionary<GraphNode<Vector2>, GraphNode<Vector2>> cameFrom, GraphNode<Vector2> current)
+        {
+            List<GraphNode<Vector2>> path = new() { current };
+
+            while (cameFrom.ContainsKey(current))
+            {
+                current = cameFrom[current];
+                path.Add(current);
+            }
+
+            path.Reverse();
+            return path;
         }
     }
 }
