@@ -51,6 +51,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph", "Graph\Graph.csproj", "{04E56ED1-9FF9-4EBD-B631-FEC4EF8AA033}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heap", "Heap\Heap.csproj", "{E11C85C3-B7A1-4114-A075-F14E6064C149}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm", "Algorithm\Algorithm.csproj", "{76EEAC59-F77B-4990-BBC6-7EC4D64A76E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +157,14 @@ Global
 		{04E56ED1-9FF9-4EBD-B631-FEC4EF8AA033}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04E56ED1-9FF9-4EBD-B631-FEC4EF8AA033}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04E56ED1-9FF9-4EBD-B631-FEC4EF8AA033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E11C85C3-B7A1-4114-A075-F14E6064C149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E11C85C3-B7A1-4114-A075-F14E6064C149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E11C85C3-B7A1-4114-A075-F14E6064C149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E11C85C3-B7A1-4114-A075-F14E6064C149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76EEAC59-F77B-4990-BBC6-7EC4D64A76E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76EEAC59-F77B-4990-BBC6-7EC4D64A76E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76EEAC59-F77B-4990-BBC6-7EC4D64A76E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76EEAC59-F77B-4990-BBC6-7EC4D64A76E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
